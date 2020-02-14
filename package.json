@@ -22,6 +22,7 @@
   "dependencies": {
     "@nestjs/common": "^6.10.14",
     "@nestjs/core": "^6.10.14",
+    "@nestjs/graphql": "^6.5.4",
     "@nestjs/platform-express": "^6.10.14",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
@@ -62,5 +63,8 @@
     },
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.2"
   }
 }
